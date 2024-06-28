@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #ffffff; /* Texto en blanco */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #333333; /* Fondo del contenedor */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Sombra del contenedor */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #ffffff; /* Título en blanco */
+    font-size: 24px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555555; /* Borde más oscuro */
+    border-radius: 5px;
+    resize: vertical; /* Permitir que el usuario redimensione verticalmente */
+    background-color: #222222; /* Fondo del textarea */
+    color: #ffffff; /* Texto en blanco */
+}
+
+textarea:focus {
+    border-color: #007bff; /* Borde al enfocar */
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.message-list {
+    list-style: none;
+    padding: 0;
+}
+
+.message {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #444444; /* Fondo del mensaje */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Sombra del mensaje */
+    transition: transform 0.3s ease;
+}
+
+.message:hover {
+    transform: scale(1.02);
+}
+
+.username {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.text {
+    margin-top: 10px;
+    color: #ffffff; /* Texto en blanco */
+}
+
+.message-id {
+    margin-top: 5px;
+    color: #cccccc; /* Texto más claro */
+    font-size: 12px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
