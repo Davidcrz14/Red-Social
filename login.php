@@ -2,8 +2,8 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $servername = "localhost";
     $username_db = "id22002079_login";
-    $password_db = "Davilis23@";
-    $dbname = "id22002079_login";
+    $password_db = "@";
+    $dbname = "";
 
     $conn = new mysqli($servername, $username_db, $password_db, $dbname);
 
