@@ -4,8 +4,8 @@ session_start();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $servername = "localhost";
     $username = "id22002079_login";
-    $password = "Davilis23@";
-    $dbname = "id22002079_login";
+    $password = "passwoed@";
+    $dbname = "databasename";
 
     // Crear una conexión utilizando consultas preparadas
     $conn = new mysqli($servername, $username, $password, $dbname);
